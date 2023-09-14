@@ -1,12 +1,28 @@
-<<<<<<< HEAD
-# React + Vite
+React Todo Uygulaması
+Bu proje, React öğrenme sürecimde geliştirdiğim basit bir Todo uygulamasını içeriyor. Amacım, React'ın temel kavramlarını anlamak ve bir uygulama geliştirme sürecini deneyimlemekti. Bu nedenle tasarım ve stil konularına çok fazla odaklanmadım.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proje Özellikleri
+-Yeni görevler ekleyebilirsiniz.
+-Eklenen görevleri listeleyebilirsiniz.
+-Görevleri silebilirsiniz.
+-Eklediğiniz görevler yerel depolamada (localStorage) saklanır, böylece sayfayı yeniden yüklediğinizde veriler kaybolmaz.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# basicTodoApp-React
->>>>>>> 2e099749512ff9ef7b1d6631de4487910a87b8e8
+Kullanılan Teknolojiler
+
+Bu projeyi geliştirmek için aşağıdaki teknolojileri kullandım:
+-React
+-Vite
+-React Bootstrap
+
+Nasıl Çalıştırılır?
+Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
+
+Projeyi klonlayın: git clone https://github.com/caneersahin/basicTodoApp-React.git
+
+Proje klasörüne gidin: cd todoApp
+Bağımlılıkları yükleyin: npm install
+
+Projeyi başlatın:  npm run dev
+
+Tarayıcınızda http://localhost:3000 adresini açarak uygulamayı görebilirsiniz.
