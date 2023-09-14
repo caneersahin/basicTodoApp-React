@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+}
+
+header {
+  background-color: lightblue;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.todoDivArea {
+  display: flex;
+  justify-content: center;
+}
+
+.todoDiv {
+  padding: 20px;
+  width: 250px;
+  border: 1px solid lightblue;
+  border-radius: 30px;
+  margin: 20px;
+
+}
+
+.todoButton {
+  width: 100px;
+}
+
+.contentArea {
+  margin-left: 10%;
+  margin-right: 10%;
+}
